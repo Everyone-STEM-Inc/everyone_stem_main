@@ -54,10 +54,9 @@ export default function SplitWithImage() {
           >
             Our Story
           </Text>
-          <Heading>A digital Product design agency</Heading>
+          <Heading>The lack of a non-profit that TRULY teaches STEM</Heading>
           <Text color={"gray.500"} fontSize={"lg"}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore
+            See, we found many non-profits that teach STEM, but do they truly? A true teacher is one that is actually present. That is why we offer LIVE courses instead of simple videos which can cause confusion for the learner, all for FREE!
           </Text>
           <Stack
             spacing={4}
@@ -72,19 +71,19 @@ export default function SplitWithImage() {
                 <Icon as={IoAnalyticsSharp} color={"yellow.500"} w={5} h={5} />
               }
               iconBg={useColorModeValue("yellow.100", "yellow.900")}
-              text={"Business Planning"}
+              text={"Live Instruction"}
             />
             <Feature
               icon={<Icon as={IoLogoBitcoin} color={"green.500"} w={5} h={5} />}
               iconBg={useColorModeValue("green.100", "green.900")}
-              text={"Financial Planning"}
+              text={"Teachers that truly care"}
             />
             <Feature
               icon={
                 <Icon as={IoSearchSharp} color={"purple.500"} w={5} h={5} />
               }
               iconBg={useColorModeValue("purple.100", "purple.900")}
-              text={"Market Analysis"}
+              text={"Easily accessible"}
             />
           </Stack>
         </Stack>

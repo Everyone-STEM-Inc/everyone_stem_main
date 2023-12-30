@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react"
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import { ReactNode } from "react"
 
 const SocialButton = ({
@@ -57,15 +57,12 @@ export default function SmallWithSocial() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>© 2022 Chakra Templates. All rights reserved</Text>
+        <Text>© 2024 Everyone STEM. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"#"}>
-            <FaTwitter />
+          <SocialButton label={"Linkedin"} href={"https://www.linkedin.com/company/everyone-stem/mycompany/?viewAsMember=true"}>
+            <FaLinkedin />
           </SocialButton>
-          <SocialButton label={"YouTube"} href={"#"}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={"Instagram"} href={"#"}>
+          <SocialButton label={"Instagram"} href={"https://www.instagram.com/everyone_stem"}>
             <FaInstagram />
           </SocialButton>
         </Stack>
